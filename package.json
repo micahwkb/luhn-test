@@ -1,0 +1,19 @@
+{
+  "name": "luhn_algorithm",
+  "version": "1.0.0",
+  "description": "evaluates numbers based on the Luhn algorithm",
+  "main": "luhn.js",
+  "scripts": {
+    "test": "mocha" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
