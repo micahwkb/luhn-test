@@ -12,12 +12,12 @@ describe("Luhn Test", () => {
     var array = [7,9,9,2,7,3,9,8,7,1].reverse();
     assert.isTrue(sum(array) === 603);
   });
-  it("check(number) === 3", () => {
-    var number = 7992739871;
-    assert.isTrue(check(number) === 3);
+  it("check(number) === true", () => {
+    var number = 79927398713;
+    assert.isTrue(check(number));
   });
-  it("check(number) === 3", () => {
+  it("check(number) === false", () => {
     var number = 79927398714;
-    assert.isTrue(check(number) === 3);
+    assert.isFalse(check(number));
   });
 });
